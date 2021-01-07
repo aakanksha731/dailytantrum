@@ -4,7 +4,9 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "start": "nodemon App"
+    "start": "node App",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    
   },
   "keywords": [],
   "author": "",
